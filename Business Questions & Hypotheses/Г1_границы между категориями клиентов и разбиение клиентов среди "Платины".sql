@@ -2,7 +2,7 @@ SELECT
 customer_tier,
 avg(total_spent) as average_spent,
 min(total_spent) as min_spent,
-max(total_spent) as max_spentб,
+max(total_spent) as max_spent,
     case
         when total_spent >50000 and total_spent<=150000 then 'Entry Platinum'
         when total_spent >150000 and total_spent<=300000 then 'Strong Platinum'
